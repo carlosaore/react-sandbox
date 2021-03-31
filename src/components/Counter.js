@@ -17,6 +17,7 @@ class Counter extends React.Component {
     render() {
         return (
             <>
+                <p>{this.props.text}</p>
                 <p>{`The current count (with classes) is ${this.state.count}`}</p>
                 <button onClick={this.addToCount}>+</button>
                 <button onClick={this.removeFromCount}>-</button>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CounterWithHooks = () => {
+const CounterWithHooks = (props) => {
     const [count, setCount] = useState(0);
 
     const addToCount = () => setCount(count + 1);
@@ -17,6 +17,7 @@ const CounterWithHooks = () => {
 
     return (
         <>
+            <p>{props.text}</p>
             <p>{`The current count (with hooks) is: ${count}`}</p>
             <button onClick={addToCount}>+</button>
             <button onClick={removeFromCount}>-</button>

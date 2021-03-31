@@ -1,6 +1,8 @@
 # react-sandbox
+> A sandbox to test various functionalities of React.
 
-A sandbox to test various functionalities of React.
+[View demo](https://unruffled-pasteur-4b753f.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to use it
