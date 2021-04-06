@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.main {
+  margin: 10%;
+}
+
 .main-text {
   color: darkblue
 }
