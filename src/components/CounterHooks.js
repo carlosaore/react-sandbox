@@ -17,9 +17,9 @@ const CounterWithHooks = (props) => {
 
     return (
         <>
-            <p>{props.text.map(element => "beer")}</p>
+            <p>{props.text.map(element => `${element} and beer `)}</p>
             {props.text
-                .filter(element => typeof(element) !== "string")
+                .filter(element => typeof(element) === "string")
                 .map(element => 
                     <p>{element}</p>
                 )}

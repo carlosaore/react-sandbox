@@ -8,7 +8,7 @@ function App() {
             <Burrito />
             <Burrito />
             <Burrito />
-            <CounterWithHooks />
+            <CounterWithHooks text={[1,2,3,"pizza"]} />
         </div>
     );
 }
