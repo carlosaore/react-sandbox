@@ -17,7 +17,12 @@ const CounterWithHooks = (props) => {
 
     return (
         <>
-            <p>{props.text}</p>
+            <p>{props.text.map(element => "beer")}</p>
+            {props.text
+                .filter(element => typeof(element) !== "string")
+                .map(element => 
+                    <p>{element}</p>
+                )}
             <p>{`The current count (with hooks) is: ${count}`}</p>
             <button onClick={addToCount}>+</button>
             <button onClick={removeFromCount}>-</button>
