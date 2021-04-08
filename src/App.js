@@ -1,8 +1,5 @@
 import Burrito from "./components/Burrito";
-import Counter from "./components/Counter";
 import CounterWithHooks from "./components/CounterHooks";
-import Size from "./components/Size";
-import Tortilla from "./components/Tortilla"
 
 
 function App() {
@@ -11,6 +8,7 @@ function App() {
             <Burrito />
             <Burrito />
             <Burrito />
+            <CounterWithHooks />
         </div>
     );
 }
