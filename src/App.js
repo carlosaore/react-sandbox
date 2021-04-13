@@ -1,3 +1,4 @@
+import AudioPlayer from "./components/AudioPlayer";
 import Burrito from "./components/Burrito";
 import CounterWithHooks from "./components/CounterHooks";
 
@@ -9,6 +10,7 @@ function App() {
             <Burrito />
             <Burrito />
             <CounterWithHooks text={[1,2,3,"pizza"]} />
+            <AudioPlayer />
         </div>
     );
 }
