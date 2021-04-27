@@ -5,9 +5,12 @@ import Cheese from "./meal/Cheese";
 const Tortilla = () => {
     return (
         <ul>
-            <Beef />
-            <Beans />
-            <Cheese />
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 1</li>
+            <li>list item 2</li>
         </ul>
     )
 }
